@@ -1,0 +1,618 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+
+    width:100%;
+    /* height: 300%; */
+
+}
+/*                                     for small device's CSS end's here                                          */
+
+/*                  For Home section CSS starts from here              */
+.main-cont{
+
+    width: 100%;
+    /* height:300%; */
+
+}
+/* main layout starts from here */
+
+.layout-sm{
+
+    width:100%;
+    /* height:300%; */
+    
+}
+.layout-l{
+
+    display: none;
+}
+.nav-sm{
+
+    width:100%;
+
+}
+.my-aside{
+
+    width:100%;
+    padding-top:60px;
+
+}
+/* banner section starts from hear */
+.banner-h{
+
+    width:100%;
+    height: 135px;
+
+}
+/* banner section end hear */
+
+/* offer section starts from hear */
+.text-font{
+
+    font-size: 23px;
+    font-weight: 700;
+}
+.text-font1{
+
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.text-fount2 {
+
+    font-size:10px;
+}
+/* offer section end's hear */
+
+/* collection section starts from hear */
+
+.card-cont{
+
+    width:100%;
+    /* height:700px; */
+    padding:15px;
+    padding-top:20px;
+    /* border:1px solid black; */
+    /* display:flex;
+    justify-content: space-around; */
+
+}
+
+.card1{
+
+    width : 50%;
+    height:212px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+
+    
+}
+
+/* .image-1{
+
+
+
+} */
+
+.card-text{
+
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* collection section end's hear */
+
+/* new arrival1 section starts from hear */
+
+
+.card2-cont{
+
+    width:100%;
+    /* height:50%; */
+    padding-left:15px;
+    padding-right:5px;
+    /* border:1px solid black; */
+    display: flex;
+    overflow:auto;
+
+}
+.card2{
+
+    /* width:300px; */
+    /* height:400px; */
+    margin-right: 10px;
+    cursor: pointer;
+    /* border:1px solid black; */
+
+}
+.image-2{
+
+    width:200px;
+    height: 200px;
+    margin-bottom: 80px;
+
+}
+/* new arrival1 section end's hear */
+
+.font-text{
+
+    font-size: 20px;
+
+}
+/* footer section starts hear */
+.footer{
+
+    width: 100%;
+
+}
+.footer-cont1{
+
+    width: 100%;
+    /* height:100px; */
+    padding-top:20px ;
+    /* border:1px solid white; */
+
+}
+.foot-cont1{
+
+    width:100px;
+    height: 100px;
+    padding:10px;
+    cursor:pointer;
+    /* border: 1px solid white; */
+
+}
+.logo{
+
+    font-size: 30px;
+    color: white;
+    cursor:pointer;
+}
+.logo-font{
+
+    font-size: 15px;
+    cursor:pointer;
+}
+.foot-cont2{
+
+    width:100%;
+    /* border:1px solid black; */
+}
+
+.cont-sec1 {
+    
+    width:100%;
+    /* border:1px solid black; */
+
+}
+.section1 {
+    
+    width:50%;
+    /* border:1px solid black; */
+    padding:20px;
+    /* text-align: center; */
+
+}
+.section2 {
+    
+    width:50%;
+    /* border:1px solid black; */
+    padding:20px;
+    /* text-align: center; */
+
+}
+.cont-sec2 {
+    
+    width:100%;
+    padding:20px;
+    /* border:1px solid black; */
+
+}
+.logo2{
+
+    font-size: 25px;
+    color:white;
+    cursor:pointer;
+}
+/* footer section end's hear */
+
+/*  main layout end's here */
+
+/*                  For Home section CSS end's here              */
+
+
+
+/*                  For Kid's section CSS starts from here              */
+
+.kid-text{
+
+    font-size: 35px;
+}
+.kid-text1{
+
+    font-size: 25px;
+
+}
+.kid-text2{
+
+    font-size: 10px;
+
+}
+/*                  For Kid's section CSS end's here              */
+
+/*                  For Search section CSS start's here              */
+
+
+.banner-Search{
+
+    width:100%;
+    height:100px;
+
+}
+.search-text{
+
+    font-size: 25px;
+
+}
+
+/*                  For Search section CSS end's here              */
+
+/*                  For Signup section CSS start's here              */
+
+.signup-text1{
+
+    font-size : 30px;
+}
+
+/*                  For Signup section CSS end's here              */
+
+
+/*                                     for small device's CSS end's here                                          */
+
+
+/*                                     for medium device's CSS starts from here                                   */
+
+
+@media (min-width:768px) {
+
+    .layout-sm{
+        
+        display:block;
+
+    }
+    .layout-l{
+
+        display:none;
+
+    }
+
+    /* navigation bar CSS starts from here */
+    
+    .nav-link{
+
+        font-size:23px;
+    }
+    .navbar-nav{
+
+        margin-left: 10px;
+
+    }
+    /* navigation bar CSS end's here */
+
+    /* banner section starts from hear */
+    .banner-h{
+
+        height: 265px;
+        /* border:1px solid black; */
+
+    }
+    /* banner section end's hear */
+
+    /* offer section starts from hear */
+    .text-font{
+
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .text-font1{
+    
+        font-size: 25px;
+        font-weight: 700;
+    
+    }
+    .text-fount2 {
+    
+        font-size:20px;
+    }
+    /* offer section end's hear */
+    
+    /* collection section starts from hear */
+    .card1{
+
+        height:425px;
+
+    }
+    .card-text{
+
+        font-size: 22px;
+    }
+    /* collection section end's hear */
+    
+    /* Head-line text start's from here  */
+    .palermo-txt{
+
+        font-size: 35px;
+    }
+    /* Head-line text start's from here  */
+    
+    /* new arrival1 section starts from hear */
+    .image-2{
+
+        width:350px;
+        height: 350px;
+        margin-bottom: 130px;
+    
+    }
+    .overflow-txt{
+
+        font-size: 30px;
+    }
+    /* new arrival1 section end's hear */
+
+    /* footer section starts from hear */
+    .logo{
+
+        font-size: 50px;
+
+    }
+    .logo-font{
+
+        font-size: 20px;
+
+    }
+
+    .section-txt0{
+
+        font-size: 25px;
+
+    }
+    .section-txt1{
+
+        font-size:20px;
+
+    }
+
+    .social-txt{
+
+        font-size:30px;
+    }
+
+    .logo2{
+
+        font-size: 35px;
+    }
+    /* footer section end's hear */
+    
+    /*                  For Kid's section CSS starts from here              */
+
+    .kid-text2{
+
+        font-size: 20px;
+    
+    }
+    .kid-text{
+
+        font-size: 45px;
+
+    }
+    .kid-text1{
+
+        font-size: 35px;
+        
+    }
+
+    /*                  For Kid's section CSS end's here              */
+    
+    /*                  For Signup section CSS start's here              */
+    .signup-text1{
+
+        font-size : 40px;
+    }
+    .e-mail-pass{
+
+        font-size:25px;
+
+    }
+    /*                  For Signup section CSS end's here              */
+    
+    /*                  For Search section CSS start's here              */
+
+    .banner-Search{
+
+        width:100%;
+        height:200px;
+    
+    }
+    .search-text{
+    
+        font-size: 35px;
+    }
+    .search-bar{
+
+        width:80%;
+
+    }
+    /*                  For Search section CSS end's here              */
+
+}
+
+/*                                  for medium device's CSS end's here                                            */
+
+
+
+/*                                  for Large device's CSS starts from here                                       */
+
+@media (min-width:1024px) {
+
+    .layout-sm{
+
+        display:none;
+
+    }
+    .layout-l{
+
+        display: block;
+
+    }
+    /* navigation bar CSS starts from here */
+    
+    .nav-link{
+
+        font-size:25px;
+        margin-left: 10px;
+    }
+    .navbar-nav{
+    
+        margin-left: 20px;
+    
+    }
+    /* navigation bar CSS end's here */
+
+    /* banner section end hear */
+    .banner-h{
+
+        height: 450px;
+    }
+    /* banner section end hear */
+
+    /* offer section starts from hear */
+    .text-font{
+
+        font-size: 40px;
+        padding-top: 15px;
+        font-weight: 900;
+    }
+    .text-font1{
+    
+        font-size: 30px;
+        padding-top: 15px;
+        font-weight: 700;
+    
+    }
+    .text-fount2 {
+    
+        font-size:25px;
+        padding-top: 20px;
+    }
+    /* offer section end's hear */
+
+    /* collection section starts from hear */
+
+    
+    .card0-cont{
+
+        width:100%;
+        /* height:50%; */
+        padding-left:15px;
+        padding-right:5px;
+        /* border:1px solid black; */
+        display: flex;
+        overflow:auto;
+    
+    }
+    .card0{
+    
+        /* width:300px; */
+        /* height:400px; */
+        margin-right: 10px;
+        cursor: pointer;
+        /* border:1px solid black; */
+    
+    }
+    .image-0{
+    
+        width:400px;
+        height: 400px;
+    
+    }
+    .card-text{
+
+        font-size: 20px;
+    }
+    
+    /* collection section end's hear */
+
+    /*                  For Kid's section CSS starts from here              */
+
+    .kid-text{
+
+      font-size: 45px;
+    }
+    .kid-text1{
+
+      font-size: 35px;
+
+    }
+    .kid-text2{
+
+      font-size: 10px;
+
+    }
+    /*                  For Kid's section CSS end's here              */
+
+    .banner-Search{
+
+        width:100%;
+        height:310px;
+    
+    }
+    .about-text{
+
+        font-size: 20px;
+    }
+
+    /* footer section starts hear */
+    
+    .logo{
+
+        font-size: 65px;
+
+    }
+    .logo2{
+
+        font-size: 45px;
+    }
+    .logo-font{
+
+        font-size: 20px;
+
+    }
+    .foot-cont1{
+
+        width:170px;
+        height: 170px;
+    
+    }
+    .section-txt0{
+
+        font-size: 35px;
+
+    }
+    .section-txt1{
+
+        font-size:25px;
+
+    }
+    .social-txt{
+
+        font-size:35px;
+    }
+    /* footer section end's hear */
+    
+
+}
